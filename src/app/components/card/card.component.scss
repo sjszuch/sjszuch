@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid white;
+  padding: 1rem;
+
+  max-width: 20rem;
+
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.title {
+  font-size: 1.2rem;
+}
+
+.sub {
+  font-size: 0.8rem;
+}
+
+.desc {
+  margin-top: 1rem;
+}
+
+.buttons {
+  margin-top: 1rem;
+
+  display: flex;
+  gap: 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+
+  border: 1px solid white;
+  border-radius: 5px;
+
+  padding: 0.2rem;
+
+  &:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+  }
+}

@@ -1,0 +1,104 @@
+.container {
+  //
+  display: flex;
+  flex-direction: column;
+
+  gap: 3rem;
+}
+
+.title {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: fit-content;
+  border-radius: 5px;
+}
+
+.hero {
+  background-color: black;
+  max-width: 25rem;
+
+  margin: auto;
+  padding: 2rem;
+
+  margin-top: 2rem;
+  border-radius: 15px;
+
+  text-align: center;
+}
+
+.herolink {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.2rem;
+
+  margin-top: 2rem;
+}
+
+.header {
+  height: 22rem;
+  background-image: url("https://media3.giphy.com/media/JoVV55m3KZHdxlpFZ6/giphy.gif");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+
+  gap: 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+}
+
+hr {
+  width: 15rem;
+  margin: auto;
+}
+
+app-picture {
+  @media (min-width: 1400px) {
+    display: none;
+  }
+}
+
+.deco {
+  width: 35rem;
+  filter: grayscale(100%);
+  position: absolute;
+
+  z-index: -1;
+
+  // media query, less than tablet
+  @media (max-width: 1400px) {
+    display: none;
+  }
+}
+
+.d1 {
+  top: 30rem;
+  left: 5rem;
+}
+
+.d2 {
+  top: 80rem;
+  right: 5rem;
+}
+
+.d3 {
+  top: 150rem;
+  left: 5rem;
+}
+
+.d4 {
+  top: 220rem;
+  right: 5rem;
+}

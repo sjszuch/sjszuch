@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="top">
+    <p class="title">{{ title }}</p>
+    <p class="sub">{{ sub }}</p>
+  </div>
+
+  <div class="bot">
+    <p class="desc">
+      {{ desc }}
+    </p>
+
+    <div class="buttons">
+      <a href="{{ href1 }}" target="_blank" *ngIf="href1 != null">{{
+        link1
+      }}</a>
+      <a href="{{ href2 }}" target="_blank" *ngIf="href2 != null">{{
+        link2
+      }}</a>
+
+      <a href="#courses" *ngIf="scroll != null">My Courses</a>
+    </div>
+  </div>
+</div>

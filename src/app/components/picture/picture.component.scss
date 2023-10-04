@@ -1,0 +1,14 @@
+img {
+  filter: grayscale(100%);
+
+  width: 22rem;
+
+  object-fit: cover;
+  object-position: center;
+
+  &:hover {
+    filter: grayscale(0%);
+    transition: 0.3s;
+    
+  }
+}
