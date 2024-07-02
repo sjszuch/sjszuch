@@ -9,6 +9,10 @@ img {
   &:hover {
     filter: grayscale(0%);
     transition: 0.3s;
-    
   }
+}
+
+p {
+  word-wrap: break-word;
+  max-width: 20rem;
 }

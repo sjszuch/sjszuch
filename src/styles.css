@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Playfair+Display&display=swap");
+body {
+  background-color: black;
+}
+
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", serif;
+  line-height: 1.5;
+}
+
+.section {
+  display: flex;
+}/*# sourceMappingURL=styles.css.map */

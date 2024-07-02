@@ -7,4 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class PictureComponent {
   @Input() img!: string;
+  @Input() desc!: string;
 }

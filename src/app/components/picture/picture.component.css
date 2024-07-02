@@ -1,0 +1,17 @@
+img {
+  filter: grayscale(100%);
+  width: 22rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+img:hover {
+  filter: grayscale(0%);
+  transition: 0.3s;
+}
+
+p {
+  word-wrap: break-word;
+  max-width: 20rem;
+}/*# sourceMappingURL=picture.component.css.map */
