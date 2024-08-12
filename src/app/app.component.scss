@@ -37,12 +37,32 @@
 .header {
   height: 22rem;
 
-  background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),
-    url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTA3czRxc2F6c240bnF0ODVxemlrZmhzNzEwZXlkN3Q1Mmhlb3c2YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RlwF2vFb4y7bDnWvcO/giphy.webp");
+  background-image: url("/assets/images/rain.webp");
 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 0.5rem;
+
+    &:hover {
+      background-color: white;
+      color: black;
+      transition: 0.3rem;
+    }
+  }
 }
 
 .section {
@@ -86,7 +106,7 @@ app-picture {
 }
 
 .d1 {
-  top: 30rem;
+  top: 36rem;
   left: 5rem;
 }
 
@@ -96,7 +116,7 @@ app-picture {
 }
 
 .d3 {
-  top: 150rem;
+  top: 112rem;
   left: 5rem;
 }
 
